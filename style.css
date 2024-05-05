@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: black;
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height:100vh;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 3%);
+    width: 21%;
+    border-radius: 3%;
+    margin: 1.7rem auto;
+    padding: 25px 35px 15px 35px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Image {
+    margin: 1.7rem auto;
+    text-align: center;
+}
+
+.descripcion {
+        text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.descripcion p:first-of-type {
+    color:darkorange;
+    font-weight: 300;
+    margin: 0;
+    padding: 5px;
+}
+
+.descripcion p:last-of-type {
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 0
+
+}
+
+.links {
+    text-align: center;
+    padding: 2px 0 0 0;
+}
+
+
+a {
+    width: 70%;
+    height: 38px;
+    margin: 0 auto;
+    color: whitesmoke;
+    text-decoration:dashed;
+}
+.links p {
+    padding: 9px 0;
+    font-weight: 600;
+    background-color:hsl(0, 0%, 15%);
+    border-radius: 6px;
+}
+
+.links p:hover {
+    color: hsl(0, 0%, 12%);
+    background-color: rgb(201, 115, 11);
+    border-radius: 6px;
+
+}
+.created {
+    
+    font-size: 12px; text-align: center ;
+    color: whitesmoke;
+}
+
+.created a {
+    color: darkgoldenrod;
+}
